@@ -36,7 +36,7 @@ public class Matrix {
     /**
      * Constructor for creation  of  empty  matrix  with  predetermined  number  of  rows  and columns (all values in matrix equal 0).
      *
-     * @param row quantity of row
+     * @param row    quantity of row
      * @param column quantity of column
      * @throws MatrixException if quantity of rows or columns which transferred as method parameters is equal 0, the exception about zero size dimensions will be thrown
      */
@@ -68,7 +68,7 @@ public class Matrix {
     /**
      * Reading of elements via predetermined correct index (indexer).
      *
-     * @param row quantity of row
+     * @param row    quantity of row
      * @param column quantity of column
      * @return matrix element with specified indexes
      * @throws MatrixException if specified row or column is out of matrix size, the exception about invalid element index will be thrown
@@ -82,9 +82,9 @@ public class Matrix {
     /**
      * Recording of elements via predetermined correct index (indexer).
      *
-     * @param row quantity of row
+     * @param row    quantity of row
      * @param column quantity of column
-     * @param value value of matrix's element which need to be set
+     * @param value  value of matrix's element which need to be set
      * @throws MatrixException if specified row or column is out of matrix size, the exception about invalid element index will be thrown
      */
     public void setMatrixElement(int row, int column, double value) throws MatrixException {
@@ -131,7 +131,7 @@ public class Matrix {
     /**
      * Method for addition of two matrices. The third matrix is returned as the result
      *
-     * @param firstMatrix first matrix
+     * @param firstMatrix  first matrix
      * @param secondMatrix second matrix
      * @return resultMatrix is as a result of addition
      * @throws MatrixException if condition for matrices addition is not respected, the exception about differences in matrices sizes will be thrown
@@ -154,7 +154,7 @@ public class Matrix {
     /**
      * Method for subtraction of two matrices. The third matrix is returned as the result
      *
-     * @param firstMatrix first matrix
+     * @param firstMatrix  first matrix
      * @param secondMatrix second matrix
      * @return resultMatrix is as a result of subtraction
      * @throws MatrixException if condition for matrices subtraction is not respected, the exception about differences in matrices sizes will be thrown
@@ -177,7 +177,7 @@ public class Matrix {
     /**
      * Method for multiplication of two matrices. The third matrix is returned as the result
      *
-     * @param firstMatrix first matrix
+     * @param firstMatrix  first matrix
      * @param secondMatrix second matrix
      * @return resultMatrix is as a result of multiplication
      * @throws MatrixException if condition for matrices multiplication is not respected, the exception about incompatible matrices sizes will be thrown
